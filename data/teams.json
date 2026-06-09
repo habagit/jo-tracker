@@ -1,0 +1,477 @@
+[
+  {
+    "division": "16U GIRLS",
+    "seed": "A1",
+    "team": "LAMORINDA A"
+  },
+  {
+    "division": "16U GIRLS",
+    "seed": "B1",
+    "team": "SANTA CRUZ A"
+  },
+  {
+    "division": "16U GIRLS",
+    "seed": "C1",
+    "team": "SHAQ A"
+  },
+  {
+    "division": "16U GIRLS",
+    "seed": "D1",
+    "team": "DIABLO ALLIANCE"
+  },
+  {
+    "division": "16U GIRLS",
+    "seed": "E1",
+    "team": "STANFORD A"
+  },
+  {
+    "division": "16U GIRLS",
+    "seed": "F1",
+    "team": "680 A"
+  },
+  {
+    "division": "16U GIRLS",
+    "seed": "A2",
+    "team": "SHAQ B"
+  },
+  {
+    "division": "16U GIRLS",
+    "seed": "B2",
+    "team": "CC UNITED"
+  },
+  {
+    "division": "16U GIRLS",
+    "seed": "C2",
+    "team": "SANTA CRUZ B"
+  },
+  {
+    "division": "16U GIRLS",
+    "seed": "D2",
+    "team": "SAN JOSE EXPRESS A"
+  },
+  {
+    "division": "16U GIRLS",
+    "seed": "E2",
+    "team": "NORCAL BLACK (A)"
+  },
+  {
+    "division": "16U GIRLS",
+    "seed": "F2",
+    "team": "LAMORINDA B"
+  },
+  {
+    "division": "16U GIRLS",
+    "seed": "A3",
+    "team": "ALAMEDA A"
+  },
+  {
+    "division": "16U GIRLS",
+    "seed": "B3",
+    "team": "TRI VALLEY"
+  },
+  {
+    "division": "16U GIRLS",
+    "seed": "C3",
+    "team": "NORCAL TEAL (B)"
+  },
+  {
+    "division": "16U GIRLS",
+    "seed": "D3",
+    "team": "STANFORD B"
+  },
+  {
+    "division": "16U GIRLS",
+    "seed": "E3",
+    "team": "680 B"
+  },
+  {
+    "division": "16U GIRLS",
+    "seed": "F3",
+    "team": "TRITONS"
+  },
+  {
+    "division": "16U GIRLS",
+    "seed": "A4",
+    "team": "NORCAL WHITE (C)"
+  },
+  {
+    "division": "16U GIRLS",
+    "seed": "B4",
+    "team": "ALAMEDA B"
+  },
+  {
+    "division": "16U GIRLS",
+    "seed": "C4",
+    "team": "SAN FRANCISCO WARRIORS"
+  },
+  {
+    "division": "16U GIRLS",
+    "seed": "D4",
+    "team": "BURLINGAME AQUATIC"
+  },
+  {
+    "division": "16U GIRLS",
+    "seed": "E4",
+    "team": "SAN JOSE EXPRESS B"
+  },
+  {
+    "division": "16U GIRLS",
+    "seed": "F4",
+    "team": "PACIFIC VALLEY PREMIER"
+  },
+  {
+    "division": "16U BOYS",
+    "seed": "A1",
+    "team": "CC UNITED A"
+  },
+  {
+    "division": "16U BOYS",
+    "seed": "B1",
+    "team": "STANFORD A"
+  },
+  {
+    "division": "16U BOYS",
+    "seed": "C1",
+    "team": "LAMORINDA A"
+  },
+  {
+    "division": "16U BOYS",
+    "seed": "D1",
+    "team": "SLEEPY HOLLOW A"
+  },
+  {
+    "division": "16U BOYS",
+    "seed": "E1",
+    "team": "ATHERTON"
+  },
+  {
+    "division": "16U BOYS",
+    "seed": "F1",
+    "team": "SAN JOSE EXPRESS A"
+  },
+  {
+    "division": "16U BOYS",
+    "seed": "G1",
+    "team": "NORCAL"
+  },
+  {
+    "division": "16U BOYS",
+    "seed": "H1",
+    "team": "680 A"
+  },
+  {
+    "division": "16U BOYS",
+    "seed": "A2",
+    "team": "680 B"
+  },
+  {
+    "division": "16U BOYS",
+    "seed": "B2",
+    "team": "MID-PEN"
+  },
+  {
+    "division": "16U BOYS",
+    "seed": "C2",
+    "team": "MONTEREY BAY UNITED"
+  },
+  {
+    "division": "16U BOYS",
+    "seed": "D2",
+    "team": "SAN JOSE FOUNDATION A"
+  },
+  {
+    "division": "16U BOYS",
+    "seed": "E2",
+    "team": "CC UNITED B"
+  },
+  {
+    "division": "16U BOYS",
+    "seed": "F2",
+    "team": "DIABLO ALLIANCE"
+  },
+  {
+    "division": "16U BOYS",
+    "seed": "G2",
+    "team": "SAN FRANCISCO"
+  },
+  {
+    "division": "16U BOYS",
+    "seed": "H2",
+    "team": "SANTA CRUZ A"
+  },
+  {
+    "division": "16U BOYS",
+    "seed": "A3",
+    "team": "LAMORINDA B"
+  },
+  {
+    "division": "16U BOYS",
+    "seed": "B3",
+    "team": "WEST VALLEY"
+  },
+  {
+    "division": "16U BOYS",
+    "seed": "C3",
+    "team": "STANFORD B"
+  },
+  {
+    "division": "16U BOYS",
+    "seed": "D3",
+    "team": "SAN JOSE EXPRESS B"
+  },
+  {
+    "division": "16U BOYS",
+    "seed": "E3",
+    "team": "SLEEPY HOLLOW B"
+  },
+  {
+    "division": "16U BOYS",
+    "seed": "F3",
+    "team": "SANTA CRUZ B"
+  },
+  {
+    "division": "16U BOYS",
+    "seed": "G3",
+    "team": "SAN JOSE FOUNDATION B"
+  },
+  {
+    "division": "16U BOYS",
+    "seed": "H3",
+    "team": "SAN MATEO"
+  },
+  {
+    "division": "16U BOYS",
+    "seed": "A4",
+    "team": "SAN JOSE EXPRESS C"
+  },
+  {
+    "division": "16U BOYS",
+    "seed": "B4",
+    "team": "CC UNITED C"
+  },
+  {
+    "division": "16U BOYS",
+    "seed": "C4",
+    "team": "SLEEPY HOLLOW C"
+  },
+  {
+    "division": "16U BOYS",
+    "seed": "D4",
+    "team": "680 C"
+  },
+  {
+    "division": "16U BOYS",
+    "seed": "E4",
+    "team": "STANFORD C"
+  },
+  {
+    "division": "16U BOYS",
+    "seed": "F4",
+    "team": "TRI-VALLEY"
+  },
+  {
+    "division": "16U BOYS",
+    "seed": "G4",
+    "team": "ALAMEDA"
+  },
+  {
+    "division": "16U BOYS",
+    "seed": "H4",
+    "team": "SAN JOSE/ALMADEN"
+  },
+  {
+    "division": "18U GIRLS",
+    "seed": "A1",
+    "team": "LAMORINDA A"
+  },
+  {
+    "division": "18U GIRLS",
+    "seed": "B1",
+    "team": "STANFORD"
+  },
+  {
+    "division": "18U GIRLS",
+    "seed": "C1",
+    "team": "DIABLO ALLIANCE A"
+  },
+  {
+    "division": "18U GIRLS",
+    "seed": "D1",
+    "team": "SHAQ"
+  },
+  {
+    "division": "18U GIRLS",
+    "seed": "A2",
+    "team": "CC UNITED"
+  },
+  {
+    "division": "18U GIRLS",
+    "seed": "B2",
+    "team": "SANTA CRUZ"
+  },
+  {
+    "division": "18U GIRLS",
+    "seed": "C2",
+    "team": "SAN JOSE EXPRESS"
+  },
+  {
+    "division": "18U GIRLS",
+    "seed": "D2",
+    "team": "680"
+  },
+  {
+    "division": "18U GIRLS",
+    "seed": "A3",
+    "team": "NORCAL"
+  },
+  {
+    "division": "18U GIRLS",
+    "seed": "B3",
+    "team": "ALAMEDA"
+  },
+  {
+    "division": "18U GIRLS",
+    "seed": "C3",
+    "team": "WEST VALLEY A"
+  },
+  {
+    "division": "18U GIRLS",
+    "seed": "D3",
+    "team": "TRI-VALLEY"
+  },
+  {
+    "division": "18U GIRLS",
+    "seed": "A4",
+    "team": "BURLINGAME AQUATIC"
+  },
+  {
+    "division": "18U GIRLS",
+    "seed": "B4",
+    "team": "DIABLO ALLIANCE B"
+  },
+  {
+    "division": "18U GIRLS",
+    "seed": "C4",
+    "team": "PACIFIC VALLEY PREMIER"
+  },
+  {
+    "division": "18U GIRLS",
+    "seed": "D4",
+    "team": "SAN JOSE/ALMADEN"
+  },
+  {
+    "division": "18U BOYS",
+    "seed": "A1",
+    "team": "STANFORD A"
+  },
+  {
+    "division": "18U BOYS",
+    "seed": "B1",
+    "team": "CC UNITED A"
+  },
+  {
+    "division": "18U BOYS",
+    "seed": "C1",
+    "team": "LAMORINDA"
+  },
+  {
+    "division": "18U BOYS",
+    "seed": "D1",
+    "team": "SAN FRANCISCO"
+  },
+  {
+    "division": "18U BOYS",
+    "seed": "E1",
+    "team": "ATHERTON"
+  },
+  {
+    "division": "18U BOYS",
+    "seed": "F1",
+    "team": "NORCAL BLACK (A)"
+  },
+  {
+    "division": "18U BOYS",
+    "seed": "A2",
+    "team": "SAN JOSE EXPRESS"
+  },
+  {
+    "division": "18U BOYS",
+    "seed": "B2",
+    "team": "WEST VALLEY"
+  },
+  {
+    "division": "18U BOYS",
+    "seed": "C2",
+    "team": "SLEEPY HOLLOW"
+  },
+  {
+    "division": "18U BOYS",
+    "seed": "D2",
+    "team": "SAN JOSE FOUNDATION"
+  },
+  {
+    "division": "18U BOYS",
+    "seed": "E2",
+    "team": "680"
+  },
+  {
+    "division": "18U BOYS",
+    "seed": "F2",
+    "team": "DIABLO ALLIANCE A"
+  },
+  {
+    "division": "18U BOYS",
+    "seed": "A3",
+    "team": "ALAMEDA"
+  },
+  {
+    "division": "18U BOYS",
+    "seed": "B3",
+    "team": "STANFORD B"
+  },
+  {
+    "division": "18U BOYS",
+    "seed": "C3",
+    "team": "CC UNITED B"
+  },
+  {
+    "division": "18U BOYS",
+    "seed": "D3",
+    "team": "MARIN"
+  },
+  {
+    "division": "18U BOYS",
+    "seed": "E3",
+    "team": "DIABLO ALLIANCE B"
+  },
+  {
+    "division": "18U BOYS",
+    "seed": "F3",
+    "team": "FARALLON AQUATICS"
+  },
+  {
+    "division": "18U BOYS",
+    "seed": "B4",
+    "team": "SAN JOSE/ALMADEN"
+  },
+  {
+    "division": "18U BOYS",
+    "seed": "C4",
+    "team": "BURLINGAME AQUATIC"
+  },
+  {
+    "division": "18U BOYS",
+    "seed": "D4",
+    "team": "NORCAL TEAL (B)"
+  },
+  {
+    "division": "18U BOYS",
+    "seed": "E4",
+    "team": "SAN MATEO AQUATICS"
+  },
+  {
+    "division": "18U BOYS",
+    "seed": "F4",
+    "team": "TRI VALLEY"
+  }
+]
