@@ -1,21 +1,37 @@
+"use client";
+
+import { useState } from "react";
+import { useRouter } from "next/navigation";
+
 export default function Home() {
+  const [team, setTeam] = useState("");
+  const router = useRouter();
+
+  const search = () => {
+    if (team.toLowerCase().includes("west valley")) {
+      router.push("/team/west-valley-16u-boys");
+    }
+  };
+
   return (
     <main className="min-h-screen flex flex-col items-center justify-center p-8">
-      <h1 className="text-5xl font-bold mb-6">JO Tracker</h1>
+      <h1 className="text-5xl font-bold">JO Tracker</h1>
 
-      <p className="text-lg text-gray-600 mb-8">Find your next game</p>
+      <p className="mt-4">Find your next game</p>
 
-      <div className="w-full max-w-md">
-        <input
-          type="text"
-          placeholder="Search team..."
-          className="w-full border rounded-lg p-3"
-        />
+      <input
+        className="border rounded-lg p-3 mt-8 w-80"
+        placeholder="Search team..."
+        value={team}
+        onChange={(e) => setTeam(e.target.value)}
+      />
 
-        <button className="w-full mt-4 bg-blue-600 text-white rounded-lg p-3">
-          Search
-        </button>
-      </div>
+      <button
+        onClick={search}
+        className="mt-4 bg-blue-600 text-white px-6 py-3 rounded-lg"
+      >
+        Search
+      </button>
     </main>
   );
 }
