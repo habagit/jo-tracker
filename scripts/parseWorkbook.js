@@ -2,7 +2,7 @@ const XLSX = require("xlsx");
 const axios = require("axios");
 
 const XLSX_URL =
-  "https://docs.google.com/spreadsheets/d/1LBDyDWHtmmEghhyGH0hslI49ZbQ0ppXW/export?format=xlsx";
+  "https://docs.google.com/spreadsheets/d/1iC_pH5WQUWzOF7pZAIuSzrkGKOx_6jCg/export?format=xlsx";
 
 async function run() {
   const response = await axios.get(XLSX_URL, {
