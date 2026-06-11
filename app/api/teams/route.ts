@@ -1,8 +1,15 @@
 import axios from "axios";
 import * as XLSX from "xlsx";
 
+/* -- My Test Sheet
 const XLSX_URL =
   "https://docs.google.com/spreadsheets/d/1Trm6UmZ_HA-4ZYWFRHIeM5J5n2dKYpg4/export?format=xlsx";
+*/
+
+const XLSX_URL =
+  "https://docs.google.com/spreadsheets/d/1Trm6UmZ_HA-4ZYWFRHIeM5J5n2dKYpg4/export?format=xlsx";
+
+type Grid = (string | number | null)[][];
 
 function normalize(str: string) {
   return (str || "")
@@ -14,10 +21,6 @@ function normalize(str: string) {
     .trim();
 }
 
-/**
- * A1-TEAM NAME → TEAM NAME
- * Removes first 2 characters + dash rule as requested
- */
 function extractTeam(value: string) {
   if (!value) return "";
 
@@ -27,9 +30,6 @@ function extractTeam(value: string) {
   return value.substring(idx + 1).trim();
 }
 
-/**
- * Valid team filter (removes junk like #W37, blanks, headers)
- */
 function isValidTeam(name: string) {
   if (!name) return false;
 
@@ -42,9 +42,6 @@ function isValidTeam(name: string) {
   return true;
 }
 
-/**
- * Map divisions → Excel cell ranges
- */
 const DIVISION_RANGES: Record<string, string[]> = {
   "16U GIRLS": ["A11:F14"],
   "16U BOYS": ["A13:H15"],
@@ -52,9 +49,6 @@ const DIVISION_RANGES: Record<string, string[]> = {
   "18U BOYS": ["A4:F7"],
 };
 
-/**
- * Convert A1 range → grid scan
- */
 function getRangeCells(range: string) {
   const match = range.match(/([A-Z]+)(\d+):([A-Z]+)(\d+)/);
   if (!match) return null;
@@ -69,9 +63,6 @@ function getRangeCells(range: string) {
   };
 }
 
-/**
- * Convert column letter → index (A=0, B=1...)
- */
 function colToIndex(col: string) {
   let result = 0;
   for (let i = 0; i < col.length; i++) {
@@ -104,10 +95,11 @@ export async function GET(req: Request) {
 
   const sheet = workbook.Sheets[sheetName];
 
+  // 🔥 FIX: force proper typing
   const grid = XLSX.utils.sheet_to_json(sheet, {
     header: 1,
     defval: "",
-  });
+  }) as Grid;
 
   const ranges = DIVISION_RANGES[division];
 
@@ -135,6 +127,7 @@ export async function GET(req: Request) {
 
       for (let c = sc; c <= ec; c++) {
         const cell = row[c];
+
         if (!cell || typeof cell !== "string") continue;
 
         const team = extractTeam(cell);
