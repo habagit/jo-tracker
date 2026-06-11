@@ -1,5 +1,5 @@
 import { NextRequest } from "next/server";
-import { getTeamData, loadTournamentGames } from "@/lib/tournamentEngine";
+import { getTeamData } from "@/lib/tournamentEngine";
 
 export const revalidate = 0;
 
