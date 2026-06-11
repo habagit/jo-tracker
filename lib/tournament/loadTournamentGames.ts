@@ -9,6 +9,8 @@ const XLSX_URL =
 const XLSX_URL =
   "https://docs.google.com/spreadsheets/d/1kRf6-_hDU_ibGJw-BPTfJqJM9SxsYFUE/export?format=xlsx";
 
+type Row = (string | number | null | undefined)[];
+
 export async function loadTournamentGames() {
   const res = await axios.get(XLSX_URL, {
     responseType: "arraybuffer",
@@ -21,15 +23,18 @@ export async function loadTournamentGames() {
   for (const sheetName of wb.SheetNames) {
     const sheet = wb.Sheets[sheetName];
 
-    const rows = XLSX.utils.sheet_to_json(sheet, {
+    // ✅ FORCE ROW TYPE
+    const rows = XLSX.utils.sheet_to_json<Row>(sheet, {
       header: 1,
       raw: false,
     });
 
     for (const row of rows) {
-      if (!row?.[3]) continue;
+      if (!row || !Array.isArray(row)) continue;
 
       const gameId = row[3];
+
+      if (!gameId) continue;
       if (!String(gameId).match(/^\d+[BG]\d+/)) continue;
 
       games.push({
