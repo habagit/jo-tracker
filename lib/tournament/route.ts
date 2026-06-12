@@ -12,25 +12,11 @@ export async function GET(req: NextRequest) {
   }
 
   try {
-    // ✅ STEP 1: ALWAYS LOAD GAMES FIRST
-    const games = await loadTournamentGames();
-
-    console.log("games loaded:", Array.isArray(games), games?.length);
-
-    // ❗ SAFETY CHECK
-    if (!Array.isArray(games)) {
-      return Response.json(
-        { error: "games not array", value: games },
-        { status: 500 },
-      );
-    }
-
-    // ✅ STEP 2: PASS GAMES INTO ENGINE
-    const result = getTeamData(games, division, team);
+    const result = await getTeamData(division, decodeURIComponent(team));
 
     return Response.json(result);
   } catch (err: any) {
-    console.error("API ERROR:", err);
+    console.error(err);
 
     return Response.json(
       {
